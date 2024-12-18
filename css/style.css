@@ -1,0 +1,28 @@
+.form{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.form-label {
+    font-size: 50px;
+}
+
+#age, #name {
+    width: 75%;
+    margin: auto;   
+}
+
+.form-check{
+    font-size: 20px;
+    width: 20%;
+    margin: auto;
+    text-align: cemter;
+}
+
+.info{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
