@@ -9,7 +9,7 @@
     <!-- BootStrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <title> PHP Es3 </title>
+    <title> PHP Es4 </title>
 </head>
 <body>
     <div class="form">
@@ -20,7 +20,7 @@
             </div>
             <div class="mb-3">
                 <label for="age" class="form-label"> Age </label>
-                <input type="number " class="form-control form-control-lg" id="age" placeholder="Enter your age..." name="age" min=0 max=100>
+                <input type="number" class="form-control form-control-lg" id="age" placeholder="Enter your age..." name="age" min=0 max=100>
             </div>
 
             <div class="info">
@@ -62,29 +62,29 @@
                 <br>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="materia" id="informatica" value="informatica">
-                    <label class="form-check-label" for="informatica">
+                    <input class="form-check-input" type="radio" name="piano" id="1" value="1">
+                    <label class="form-check-label" for="mensile">
                         1
                     </label>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="materia" id="flexRadioDefault2" value="sistemi" checked>
-                    <label class="form-check-label" for="sistemi">
+                    <input class="form-check-input" type="radio" name="piano" id="2" value="2" checked>
+                    <label class="form-check-label" for="bimensile">
                         2
                     </label>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="materia" id="tpsit" value="tpsit" checked>
-                    <label class="form-check-label" for="tpsit">
+                    <input class="form-check-input" type="radio" name="piano" id="3" value="3">
+                    <label class="form-check-label" for="trimestrale">
                         3
                     </label>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="materia" id="sis" value="sis" checked>
-                    <label class="form-check-label" for="sis">
+                    <input class="form-check-input" type="radio" name="piano" id="4" value="4">
+                    <label class="form-check-label" for="annuale">
                         4
                     </label>
                 </div>
