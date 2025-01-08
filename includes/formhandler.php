@@ -22,10 +22,10 @@
                 $piano = htmlspecialchars($_POST["piano"]);
                 $piano = intval($piano); // Conversione in intero
 
-                echo "<h2>Hai inviato i seguenti dati:</h2>";
-                echo "<p><strong>Nome:</strong> " . htmlspecialchars($name) . "</p>";
-                echo "<p><strong>Età:</strong> " . htmlspecialchars($age) . "</p>";
-                echo "<p><strong>Piano di pagamento:</strong> " . htmlspecialchars($piano) . "</p>";
+                echo "<center><h2>Hai inviato i seguenti dati:</h2></center>";
+                echo "<center><p><strong>Nome:</strong> " . htmlspecialchars($name) . "</p></center>";
+                echo "<center><p><strong>Età:</strong> " . htmlspecialchars($age) . "</p></center>";
+                echo "<center><p><strong>Piano di pagamento:</strong> " . htmlspecialchars($piano) . "</p></center>";
 
                 $price = calcoloPrezzo($age, $piano);
 
@@ -34,7 +34,7 @@
             function calcoloPrezzo($eta, $piano_pag){
                 $costo_base = 0;
 
-                if($age < 18 || $age > 64){
+                if($eta < 18 || $eta > 64){
                     $costo_base = 35;
                 } else {
                     $costo_base = 45;
@@ -67,7 +67,7 @@
         ?> 
 
         <div class="table-ans">
-            <table class="table">
+            <table class="table table-bordered">
             <tr>
                 <th colspan="3"> Dati del form </th>
                 <th> Output Server </th>
@@ -75,14 +75,14 @@
             <tr>
                 <td> Nome </td>
                 <td> Età </td>
-                <td> Pagamento </td>
+                <td> Metodo di Pagamento </td>
                 <td> Output </td>
             </tr>
             <tr>
                 <td> <?php echo $name?> </td>
                 <td> <?php echo $age?> </td>
                 <td> <?php echo $piano?> </td>
-                <td> <?php echo $price?> </td>
+                <td> <?php echo $price?>€ </td>
             </tr>
 
             </table>
