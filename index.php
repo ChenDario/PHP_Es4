@@ -16,11 +16,11 @@
         <form action="includes/formhandler.php" method="POST">
             <div class="mb-3">
                 <label for="name" class="form-label"> Name </label>
-                <input type="text" class="form-control form-control-lg" id="name" placeholder="Enter your name..." name="name">
+                <input type="text" class="form-control form-control-lg" id="name" placeholder="Enter your name..." name="name" required>
             </div>
             <div class="mb-3">
                 <label for="age" class="form-label"> Age </label>
-                <input type="number" class="form-control form-control-lg" id="age" placeholder="Enter your age..." name="age" min=0 max=100>
+                <input type="number" class="form-control form-control-lg" id="age" placeholder="Enter your age..." name="age" min=0 max=100 required>
             </div>
 
             <div class="info">
